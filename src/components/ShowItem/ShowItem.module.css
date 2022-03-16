@@ -1,0 +1,29 @@
+.item {
+  height: 70px;
+  list-style: none;
+  border-bottom: 1px solid #808080;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  width: 100vw;
+  height: 70px;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+.right_container,
+.left_container {
+  width: 50%;
+  height: 60px;
+}
+
+.left_container {
+  background-color: red;
+}
+.right_container {
+  background-color: greenyellow;
+}
